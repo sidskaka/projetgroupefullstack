@@ -62,10 +62,10 @@ exports.updateOne = (req, res) => {
         }
         //res.send(user)
         Product.findById(req.params.id)
-        .then(newBu => {
+        .then(newProduct => {
             res.send({
-                new_Bu: newBu,
-                old_Bu: product
+                new_product: newProduct,
+                old_product: product
             });
         })
     }).catch(err => {
