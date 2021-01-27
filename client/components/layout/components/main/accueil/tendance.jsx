@@ -1,5 +1,7 @@
 import React from 'react'
 
+import articles from '../../../../../data/articles.json'
+
 const Tendance = () => {
     return(
 		<>
@@ -1356,10 +1358,10 @@ const Tendance = () => {
 
 				<div className="col-lg-6 col-md-6 col-12">
 					<div className="single-banner">
-						<img src="https://via.placeholder.com/600x370" alt="#" />
+						<img src="images/basket2-img.jpg" alt="#" />
 						<div className="content">
 							<p>Man's Collectons</p>
-							<h3>Man's items <br />Up to<span> 50%</span></h3>
+							<h3 style={{color: "#fff"}}>Man's items <br />Up to<span> 50%</span></h3>
 							<a href="#">Shop Now</a>
 						</div>
 					</div>
@@ -1367,10 +1369,10 @@ const Tendance = () => {
 
 				<div className="col-lg-6 col-md-6 col-12">
 					<div className="single-banner">
-						<img src="https://via.placeholder.com/600x370" alt="#" />
+						<img src="images/basket1-img.jpg" alt="#" />
 						<div className="content">
 							<p>shoes women</p>
-							<h3>mid season <br /> up to <span>70%</span></h3>
+							<h3 style={{color: "#fff"}}>mid season <br /> up to <span>70%</span></h3>
 							<a href="#" className="btn">Shop Now</a>
 						</div>
 					</div>
@@ -1393,108 +1395,35 @@ const Tendance = () => {
                 <div className="col-12">
                     <div className="owl-carousel popular-slider">
 
-						<div className="single-product">
-							<div className="product-img">
-								<a href="product-details.html">
-									<img className="default-img" src="https://via.placeholder.com/550x750" alt="#" />
-									<img className="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
-									<span className="out-of-stock">Hot</span>
-								</a>
-								<div className="button-head">
-									<div claclassNamessName="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i className=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i className=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i className="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+						{articles.map((article) => (
+							<div className="single-product">
+								<div className="product-img">
+									<a href="product-details.html">
+										<img className="default-img" src={article.imageUrl} alt={article.imageUrl} />
+										<span className="out-of-stock">Hot</span>
+									</a>
+									<div className="button-head">
+										<div claclassNamessName="product-action">
+											<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i className=" ti-eye"></i><span>Quick Shop</span></a>
+											<a title="Wishlist" href="#"><i className=" ti-heart "></i><span>Add to Wishlist</span></a>
+											<a title="Compare" href="#"><i className="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+										</div>
+										<div className="product-action-2">
+											<a title="Add to cart" href="#">Add to cart</a>
+										</div>
 									</div>
-									<div className="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
+								</div>
+								<div className="product-content">
+									<h3><a href="product-details.html">{article.name}</a></h3>
+									<div className="product-price">
+										<span className="old">$65.00</span>
+										<span>${article.price}</span>
 									</div>
 								</div>
 							</div>
-							<div className="product-content">
-								<h3><a href="product-details.html">Black Sunglass For Women</a></h3>
-								<div className="product-price">
-									<span className="old">$60.00</span>
-									<span>$50.00</span>
-								</div>
-							</div>
-						</div>
+						))}
 
-						<div className="single-product">
-                            <div className="product-img">
-                                <a href="product-details.html">
-                                    <img className="default-img" src="https://via.placeholder.com/550x750" alt="#" />
-                                    <img className="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
-                                </a>
-								<div className="button-head">
-									<div className="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i className=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i className=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i className="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
-									</div>
-									<div className="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
-									</div>
-								</div>
-                            </div>
-                            <div className="product-content">
-                                <h3><a href="product-details.html">Women Hot Collection</a></h3>
-                                <div className="product-price">
-                                    <span>$50.00</span>
-                                </div>
-                            </div>
-                        </div>
-
-						<div className="single-product">
-                            <div className="product-img">
-                                <a href="product-details.html">
-                                    <img className="default-img" src="https://via.placeholder.com/550x750" alt="#" />
-                                    <img className="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
-									<span className="new">New</span>
-                                </a>
-								<div className="button-head">
-									<div className="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i className=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i className=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i className="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
-									</div>
-									<div className="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
-									</div>
-								</div>
-                            </div>
-                            <div className="product-content">
-                                <h3><a href="product-details.html">Awesome Pink Show</a></h3>
-                                <div className="product-price">
-                                    <span>$50.00</span>
-                                </div>
-                            </div>
-                        </div>
-
-						<div className="single-product">
-                            <div className="product-img">
-                                <a href="product-details.html">
-                                    <img className="default-img" src="https://via.placeholder.com/550x750" alt="#" />
-                                    <img className="hover-img" src="https://via.placeholder.com/550x750" alt="#" />
-                                </a>
-								<div className="button-head">
-									<div className="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i className=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i className=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i className="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
-									</div>
-									<div className="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
-									</div>
-								</div>
-                            </div>
-                            <div className="product-content">
-                                <h3><a href="product-details.html">Awesome Bags Collection</a></h3>
-                                <div className="product-price">
-                                    <span>$50.00</span>
-                                </div>
-                            </div>
-                        </div>
+						
 
                     </div>
                 </div>
@@ -1698,7 +1627,7 @@ const Tendance = () => {
 				<div className="row">
 					<div className="col-lg-6 col-12 padding-right">
 						<div className="image">
-							<img src="https://via.placeholder.com/750x590" alt="#" />
+							<img src="images/img.jpg" alt="#" />
 						</div>	
 					</div>	
 					<div className="col-lg-6 col-12 padding-left">

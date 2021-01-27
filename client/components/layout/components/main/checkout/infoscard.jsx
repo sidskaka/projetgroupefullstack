@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
+
+import CartContext from '../../../../../cart/context';
 
 const InfosCard = () => {
+	const { cartItems } = useContext(CartContext);
+	var totalPrice = 0;
+	for (var i = 0; i < cartItems.length; i++) {
+		totalPrice += cartItems[i].price;
+	}
+	console.log(cartItems)
     return(
         <div className="col-lg-4 col-12">
 			<div className="order-details">
@@ -9,9 +17,9 @@ const InfosCard = () => {
 					<h2>CART  TOTALS</h2>
 					<div className="content">
 						<ul>
-							<li>Sub Total<span>$330.00</span></li>
+							<li>Sub Total<span>${totalPrice}</span></li>
 							<li>(+) Shipping<span>$10.00</span></li>
-							<li className="last">Total<span>$340.00</span></li>
+							<li className="last">Total<span>${totalPrice+10.00}</span></li>
 						</ul>
 					</div>
 				</div>
