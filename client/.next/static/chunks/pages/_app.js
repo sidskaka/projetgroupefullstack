@@ -90,7 +90,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\components\\footer\\footer.jsx",
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\components\\footer\\footer.jsx",
     _this = undefined;
 
 
@@ -672,7 +672,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _cart_context__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../cart/context */ "./cart/context.js");
 
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\components\\header\\header.jsx",
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\components\\header\\header.jsx",
     _this = undefined,
     _s = $RefreshSig$();
 
@@ -2004,7 +2004,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\components\\main\\index.jsx",
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\components\\main\\index.jsx",
     _this = undefined;
 
 
@@ -2098,7 +2098,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\components\\topbar\\topbar.jsx",
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\components\\topbar\\topbar.jsx",
     _this = undefined;
 
 
@@ -2348,7 +2348,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\layout.jsx",
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\layout.jsx",
     _this = undefined;
 
 
@@ -13631,7 +13631,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\pages\\_app.js",
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\pages\\_app.js",
     _s = $RefreshSig$();
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -13833,7 +13833,7 @@ module.exports = content.locals || {};
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! C:\Users\SKA\source\repos\projetgroupefullstack\client\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! C:\Users\Cyril\Documents\GitHub\projetgroupefullstack\client\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ })

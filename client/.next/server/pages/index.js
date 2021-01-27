@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\components\\main\\accueil\\background.jsx";
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\components\\main\\accueil\\background.jsx";
 
 
 const Background = () => {
@@ -425,7 +425,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\components\\main\\accueil\\details.jsx";
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\components\\main\\accueil\\details.jsx";
 
 
 const Details = () => {
@@ -1030,7 +1030,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _newsletter__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../newsletter */ "./components/layout/components/main/newsletter.jsx");
 
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\components\\main\\accueil\\index.jsx";
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\components\\main\\accueil\\index.jsx";
 
 
 
@@ -1080,7 +1080,7 @@ __webpack_require__.r(__webpack_exports__);
 var _data_articles_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../../../data/articles.json */ "./data/articles.json", 1);
 
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\components\\main\\accueil\\tendance.jsx";
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\components\\main\\accueil\\tendance.jsx";
 
 
 
@@ -11034,7 +11034,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\components\\layout\\components\\main\\newsletter.jsx";
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\components\\layout\\components\\main\\newsletter.jsx";
 
 
 const Newsletter = () => {
@@ -11157,7 +11157,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_layout_components_main_accueil__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout/components/main/accueil */ "./components/layout/components/main/accueil/index.jsx");
 
-var _jsxFileName = "C:\\Users\\SKA\\source\\repos\\projetgroupefullstack\\client\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Cyril\\Documents\\GitHub\\projetgroupefullstack\\client\\pages\\index.js";
 
 
 
