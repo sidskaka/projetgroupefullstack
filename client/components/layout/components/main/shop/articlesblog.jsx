@@ -1,11 +1,32 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 import Minibar from './minibar'
 import Sidebar from './sidebar'
 import Article from './article'
 
-import articles from '../../../../../data/articles.json'
+//import articles from '../../../../../data/articles.json'
 
 const ArticlesBlog = () => {
+	const [articles, setArticles] = useState([]);
+	let url = 'http://localhost:3001/api/v1/products'
+
+	console.log("teste!!!")
+
+	useEffect(() => {
+		axios({
+			method: 'GET',
+			headers: { 'Access-Control-Allow-Credentials': 'true' },
+			url: url
+		}).
+			then(res => {
+				//console.log(res.data)
+				setArticles(res.data)
+			}).
+			catch(err => {
+				console.log(err)
+			})
+	}, [])
+	console.log(articles)
 	return (
 		<section className="article-area shop-sidebar shop section">
 			<div className="container">
@@ -17,7 +38,7 @@ const ArticlesBlog = () => {
 						<div className="row">
 							<div className='articles'>
 								{articles.map((article) => (
-									<Article key={article.id} {...article}  />
+									<Article key={article._id} {...article}  />
 								))}
 							</div>
 							

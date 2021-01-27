@@ -1,17 +1,13 @@
 const express = require('express');
 const router = express.Router();
-<<<<<<< HEAD
-// const employe = require('../controllers/employe.controller');
-//const gestionnaire = require('../controllers/gestionnaire.controller');
-=======
->>>>>>> b92c13f8a6616cd44362a14bc0da3126b9a5e78e
+
 const Product = require('../controllers/product.controller');
 const verifyToken = require('../helpers/verifyToken');
 
 //TEST
 const auth = require('../middleware/auth');
 
-<<<<<<< HEAD
+
 //*******************employe Routers**************/
 // router.post('/employe', employe.create);
 // router.get('/employe', employe.findAll);
@@ -28,8 +24,7 @@ router.post('/gestionnaire/:id', gestionnaire.updateOne);
 router.put('/gestionnaire/:id', gestionnaire.updateOne);
 router.delete('/gestionnaire/:id', gestionnaire.deleteOne);*/
 
-=======
->>>>>>> b92c13f8a6616cd44362a14bc0da3126b9a5e78e
+
 //*****************Product Routers ********************/
 router.post('/product', Product.create);
 router.get('/products', Product.findAll);

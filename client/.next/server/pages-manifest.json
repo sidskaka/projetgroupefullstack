@@ -2,10 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-<<<<<<< HEAD
-  "/": "pages/index.js"
-=======
-  "/": "pages/index.js",
-  "/shop": "pages/shop.js"
->>>>>>> 9d81f23b477b8eab4cf440ce432f2706639b4381
+  "/shop": "pages/shop.js",
+  "/checkout": "pages/checkout.js"
 }

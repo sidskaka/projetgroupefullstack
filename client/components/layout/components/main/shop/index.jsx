@@ -7,6 +7,7 @@ import Newsletter from '../newsletter'
 import CartContext from '../../../../../cart/context';
 
 const Shop = () => {
+    
     //const { addToCart } = useContext(CartContext);
 
     return (

@@ -1,7 +1,8 @@
 import React, { useState, useContext } from 'react';
 import CartContext from '../../../../../cart/context';
 
-const Article = ({ id, name, imageUrl, price, description }) => {
+const Article = ({ _id, name, imageUrl, price, description, quantite }) => {
+	console.log(_id)
 	const [hover, setHover] = useState(false);
 	const { addToCart } = useContext(CartContext);
 
@@ -23,7 +24,7 @@ const Article = ({ id, name, imageUrl, price, description }) => {
 							<a title="Compare" href="#"><i className="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 						</div>
 						<div className="product-action-2">
-							<a title="Add to cart" onClick={() => addToCart({ id, name, price, description })}>Add to cart</a>
+							<a title="Add to cart" onClick={() => addToCart({ _id, name, price, description, quantite })}>Add to cart</a>
 						</div>
 					</div>
 				</div>

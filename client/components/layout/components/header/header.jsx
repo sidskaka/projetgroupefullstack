@@ -6,7 +6,8 @@ import CartContext from '../../../../cart/context';
 const Header = () => {
 	const { cartItems } = useContext(CartContext);
 	const ItemNumber = cartItems.reduce((acc, item) => acc + item.qty, 0)
-	//console.log(ItemNumber.lenght)
+	console.log(ItemNumber.lenght)
+	console.log(cartItems)
 
 	var htmlCheckout = "";
 
