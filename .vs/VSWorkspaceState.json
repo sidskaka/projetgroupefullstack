@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\api\\src",
-    "\\api\\src\\models",
-    "\\client",
-    "\\client\\components",
-    "\\client\\components\\layout",
-    "\\client\\components\\layout\\components",
-    "\\client\\components\\layout\\components\\main",
-    "\\client\\components\\layout\\components\\main\\accueil",
-    "\\client\\components\\layout\\components\\topbar"
+    "\\admin_panel",
+    "\\admin_panel\\back",
+    "\\admin_panel\\back\\src",
+    "\\admin_panel\\back\\src\\configs",
+    "\\admin_panel\\back\\src\\controllers",
+    "\\admin_panel\\back\\src\\helpers",
+    "\\admin_panel\\back\\src\\middleware",
+    "\\admin_panel\\back\\src\\models",
+    "\\admin_panel\\back\\src\\routes"
   ],
-  "SelectedNode": "\\client\\pages\\_document.js",
+  "SelectedNode": "\\admin_panel\\back\\src\\models\\employe.model.js",
   "PreviewInSolutionExplorer": false
 }

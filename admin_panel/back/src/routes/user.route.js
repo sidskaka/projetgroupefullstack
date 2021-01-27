@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 // const employe = require('../controllers/employe.controller');
-const gestionnaire = require('../controllers/gestionnaire.controller');
-const BU = require('../controllers/BU.controller');
+//const gestionnaire = require('../controllers/gestionnaire.controller');
+const Product = require('../controllers/product.controller');
 // const responsable = require('../controllers/Responsable.controller');
 const verifyToken = require('../helpers/verifyToken');
 
@@ -18,19 +18,19 @@ const auth = require('../middleware/auth');
 // router.delete('/employe/:id', employe.deleteOne);
 
 //*******************gestionnaire Routers**************/
-router.post('/gestionnaire', gestionnaire.create);
+/*router.post('/gestionnaire', gestionnaire.create);
 router.get('/gestionnaire', gestionnaire.findAll);
 router.get('/gestionnaire/:id', gestionnaire.findOne);
 router.post('/gestionnaire/:id', gestionnaire.updateOne);
 router.put('/gestionnaire/:id', gestionnaire.updateOne);
-router.delete('/gestionnaire/:id', gestionnaire.deleteOne);
+router.delete('/gestionnaire/:id', gestionnaire.deleteOne);*/
 
-//*****************BU Routers ********************/
-router.post('/BU', BU.create);
-router.get('/BU', BU.findAll);
-router.get('/BU/:id', BU.findOne);
-router.post('/BU/:id', BU.updateOne);
-router.delete('/BU/:id', BU.deleteOne)
+//*****************Product Routers ********************/
+router.post('/product', Product.create);
+router.get('/products', Product.findAll);
+router.get('/product/:id', Product.findOne);
+router.post('/product/:id', Product.updateOne);
+router.delete('/product/:id', Product.deleteOne)
 
 //****************Responsable Routers ***********/
 // router.post('/responsable', responsable.create);
