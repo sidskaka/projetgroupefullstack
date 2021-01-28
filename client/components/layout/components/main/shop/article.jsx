@@ -24,7 +24,7 @@ const Article = ({ _id, name, imageUrl, price, description, quantite }) => {
 							<a title="Compare" href="#"><i className="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 						</div>
 						<div className="product-action-2">
-							<a title="Add to cart" onClick={() => addToCart({ _id, name, price, description, quantite })}>Add to cart</a>
+							<a title="Add to cart" onClick={() => addToCart({ _id, name, imageUrl, price, description, quantite })}>Add to cart</a>
 						</div>
 					</div>
 				</div>

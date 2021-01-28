@@ -3,19 +3,11 @@ services:
     app:
         container_name: app
         restart: always
-        build: ./api
+        build: ./admin_panel/back
         ports:
             - "4000:4000"
         depends_on:
             - mongo
-    admin:
-        container_name: admin
-        restart: always
-        build: ./adminpannel
-        ports:
-            - "5000:5000"
-        depends_on:
-            - app
     client:
         container_name: client
         restart: always

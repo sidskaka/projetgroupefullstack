@@ -4,21 +4,16 @@ import Link from 'next/link'
 import CartContext from '../../../../cart/context';
 
 const Header = () => {
-	const { cartItems } = useContext(CartContext);
+	const { cartItems, removeFromCart } = useContext(CartContext);
 	const ItemNumber = cartItems.reduce((acc, item) => acc + item.qty, 0)
-	console.log(ItemNumber.lenght)
+	//console.log(ItemNumber.lenght)
 	console.log(cartItems)
 
-	var htmlCheckout = "";
+	/**var htmlCheckout = "";
 
 	for (var i = 0; i < ItemNumber; i++) {
-		htmlCheckout = <li>
-							<a href="#" className="remove" title="Remove this item"><i className="fa fa-remove"></i></a>
-							<a className="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#" /></a>
-							<h4><a href="#">Woman Ring</a></h4>
-							<p className="quantity">1x - <span className="amount">$99.00</span></p>
-						</li>;
-	}
+		htmlCheckout = ;
+	}*/
 	var totalPrice = 0;
 	for (var i = 0; i < cartItems.length; i++) {
 		totalPrice += cartItems[i].price;
@@ -85,7 +80,16 @@ const Header = () => {
 											<a href="#">View Cart</a>
 										</div>
 										<ul className="shopping-list">
-											{htmlCheckout}
+											{cartItems.map((cart) => (
+												
+												<li key={cart._id}>
+													<a onClick={() => removeFromCart(cart._id)} href="#" className="remove" title="Remove this item"><i className="fa fa-remove"></i></a>
+													<a className="cart-img" href="#"><img src={cart.imageUrl} alt="#" /></a>
+													<h4><a href="#">{cart.name}</a></h4>
+													<p className="quantity">1x - <span className="amount">${cart.price}.00</span></p>
+												</li>
+											))}
+
 										</ul>
 										<div className="bottom">
 											<div className="total">
