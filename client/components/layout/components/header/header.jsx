@@ -9,17 +9,11 @@ const Header = () => {
 	//console.log(ItemNumber.lenght)
 	console.log(cartItems)
 
-	/**var htmlCheckout = "";
-
-	for (var i = 0; i < ItemNumber; i++) {
-		htmlCheckout = ;
-	}*/
 	var totalPrice = 0;
 	for (var i = 0; i < cartItems.length; i++) {
 		totalPrice += cartItems[i].price;
     }
-	//console.log(cartItems)
-	//console.log(totalPrice)
+
 	return (
 		<header className="header shop">
 			<TopBar />

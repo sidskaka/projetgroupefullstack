@@ -2,7 +2,6 @@
   "ExpandedNodes": [
     "",
     "\\admin_panel",
-    "\\admin_panel\\administration\\src\\pages",
     "\\client",
     "\\client\\cart",
     "\\client\\components",
@@ -11,6 +10,6 @@
     "\\client\\components\\layout\\components\\header",
     "\\client\\hooks"
   ],
-  "SelectedNode": "\\admin_panel\\administration",
+  "SelectedNode": "\\admin_panel",
   "PreviewInSolutionExplorer": false
 }

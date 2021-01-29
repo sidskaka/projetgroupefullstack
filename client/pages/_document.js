@@ -54,7 +54,9 @@ class MyDocument extends Document {
 					<script src="js/scrollup.js"></script>
 					<script src="js/onepage-nav.min.js"></script>
 					<script src="js/easing.js"></script>
-					<script src="js/active.js"></script>
+                    <script src="js/active.js"></script>
+                    <script src="js/facnybox.min.js"></script>
+                    <script src="js/ytplayer.min.js"></script>
                 </body>
             </Html>
         )

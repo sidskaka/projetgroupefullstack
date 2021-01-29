@@ -10,8 +10,6 @@ const ArticlesBlog = () => {
 	const [articles, setArticles] = useState([]);
 	let url = 'http://localhost:3001/api/v1/products'
 
-	console.log("teste!!!")
-
 	useEffect(() => {
 		axios({
 			method: 'GET',
@@ -37,7 +35,7 @@ const ArticlesBlog = () => {
 
 						<div className="row">
 							<div className='articles'>
-								{articles.map((article) => (
+								{articles.slice(0, 12).map((article) => (
 									<Article key={article._id} {...article}  />
 								))}
 							</div>
