@@ -208,10 +208,14 @@ const Header = () => {
 															<li>
 																<Link href="/shop">
 																	<a>Shop Grid</a>
-															</Link>
+																</Link>
 																
 															</li>
-															<li><a href="cart.html">Cart</a></li>
+															<li>
+																<Link href="/cart">
+																	<a>Cart</a>
+																</Link>
+															</li>
 															<li>
 																<Link href="/checkout">
 																	<a>Checkout</a>
